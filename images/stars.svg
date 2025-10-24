@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <!-- Petites étoiles -->
+  <circle cx="50" cy="50" r="1" fill="white" />
+  <circle cx="100" cy="30" r="1.5" fill="white" />
+  <circle cx="150" cy="70" r="1" fill="white" />
+  <circle cx="200" cy="40" r="2" fill="white" />
+  <circle cx="250" cy="90" r="1" fill="white" />
+  <circle cx="300" cy="20" r="1.5" fill="white" />
+  <circle cx="350" cy="60" r="1" fill="white" />
+  <circle cx="400" cy="80" r="2" fill="white" />
+  <circle cx="450" cy="30" r="1" fill="white" />
+  
+  <circle cx="30" cy="120" r="1.5" fill="white" />
+  <circle cx="80" cy="150" r="1" fill="white" />
+  <circle cx="130" cy="110" r="2" fill="white" />
+  <circle cx="180" cy="160" r="1" fill="white" />
+  <circle cx="230" cy="130" r="1.5" fill="white" />
+  <circle cx="280" cy="170" r="1" fill="white" />
+  <circle cx="330" cy="120" r="2" fill="white" />
+  <circle cx="380" cy="150" r="1" fill="white" />
+  <circle cx="430" cy="110" r="1.5" fill="white" />
+  <circle cx="480" cy="160" r="1" fill="white" />
+  
+  <circle cx="20" cy="210" r="1" fill="white" />
+  <circle cx="70" cy="240" r="2" fill="white" />
+  <circle cx="120" cy="200" r="1" fill="white" />
+  <circle cx="170" cy="250" r="1.5" fill="white" />
+  <circle cx="220" cy="210" r="1" fill="white" />
+  <circle cx="270" cy="240" r="2" fill="white" />
+  <circle cx="320" cy="200" r="1" fill="white" />
+  <circle cx="370" cy="250" r="1.5" fill="white" />
+  <circle cx="420" cy="210" r="1" fill="white" />
+  <circle cx="470" cy="240" r="2" fill="white" />
+  
+  <circle cx="40" cy="290" r="1.5" fill="white" />
+  <circle cx="90" cy="320" r="1" fill="white" />
+  <circle cx="140" cy="280" r="2" fill="white" />
+  <circle cx="190" cy="330" r="1" fill="white" />
+  <circle cx="240" cy="290" r="1.5" fill="white" />
+  <circle cx="290" cy="320" r="1" fill="white" />
+  <circle cx="340" cy="280" r="2" fill="white" />
+  <circle cx="390" cy="330" r="1" fill="white" />
+  <circle cx="440" cy="290" r="1.5" fill="white" />
+  <circle cx="490" cy="320" r="1" fill="white" />
+  
+  <circle cx="10" cy="370" r="1" fill="white" />
+  <circle cx="60" cy="400" r="2" fill="white" />
+  <circle cx="110" cy="360" r="1" fill="white" />
+  <circle cx="160" cy="410" r="1.5" fill="white" />
+  <circle cx="210" cy="370" r="1" fill="white" />
+  <circle cx="260" cy="400" r="2" fill="white" />
+  <circle cx="310" cy="360" r="1" fill="white" />
+  <circle cx="360" cy="410" r="1.5" fill="white" />
+  <circle cx="410" cy="370" r="1" fill="white" />
+  <circle cx="460" cy="400" r="2" fill="white" />
+  
+  <circle cx="30" cy="450" r="1.5" fill="white" />
+  <circle cx="80" cy="480" r="1" fill="white" />
+  <circle cx="130" cy="440" r="2" fill="white" />
+  <circle cx="180" cy="490" r="1" fill="white" />
+  <circle cx="230" cy="450" r="1.5" fill="white" />
+  <circle cx="280" cy="480" r="1" fill="white" />
+  <circle cx="330" cy="440" r="2" fill="white" />
+  <circle cx="380" cy="490" r="1" fill="white" />
+  <circle cx="430" cy="450" r="1.5" fill="white" />
+  <circle cx="480" cy="480" r="1" fill="white" />
+  
+  <!-- Étoiles moyennes -->
+  <path d="M75,75 L77,70 L79,75 L84,77 L79,79 L77,84 L75,79 L70,77 Z" fill="white" opacity="0.8" />
+  <path d="M225,125 L227,120 L229,125 L234,127 L229,129 L227,134 L225,129 L220,127 Z" fill="white" opacity="0.8" />
+  <path d="M375,175 L377,170 L379,175 L384,177 L379,179 L377,184 L375,179 L370,177 Z" fill="white" opacity="0.8" />
+  <path d="M125,225 L127,220 L129,225 L134,227 L129,229 L127,234 L125,229 L120,227 Z" fill="white" opacity="0.8" />
+  <path d="M275,275 L277,270 L279,275 L284,277 L279,279 L277,284 L275,279 L270,277 Z" fill="white" opacity="0.8" />
+  <path d="M425,325 L427,320 L429,325 L434,327 L429,329 L427,334 L425,329 L420,327 Z" fill="white" opacity="0.8" />
+  <path d="M175,375 L177,370 L179,375 L184,377 L179,379 L177,384 L175,379 L170,377 Z" fill="white" opacity="0.8" />
+  <path d="M325,425 L327,420 L329,425 L334,427 L329,429 L327,434 L325,429 L320,427 Z" fill="white" opacity="0.8" />
+  
+  <!-- Grandes étoiles -->
+  <path d="M150,150 L154,140 L158,150 L168,154 L158,158 L154,168 L150,158 L140,154 Z" fill="#f72585" opacity="0.6" />
+  <path d="M350,250 L354,240 L358,250 L368,254 L358,258 L354,268 L350,258 L340,254 Z" fill="#4cc9f0" opacity="0.6" />
+  <path d="M250,350 L254,340 L258,350 L268,354 L258,358 L254,368 L250,358 L240,354 Z" fill="#6a4c93" opacity="0.6" />
+</svg>

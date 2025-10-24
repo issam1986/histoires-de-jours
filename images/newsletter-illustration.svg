@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Enveloppe magique -->
+  <rect x="50" y="50" width="200" height="120" fill="#6a4c93" rx="10" ry="10" />
+  <path d="M50,50 L150,110 L250,50" fill="#4cc9f0" />
+  
+  <!-- Rabat ouvert -->
+  <path d="M50,50 L150,90 L250,50 L150,20 Z" fill="#f72585" />
+  
+  <!-- Étoiles et magie -->
+  <path d="M70,100 L72,95 L74,100 L79,102 L74,104 L72,109 L70,104 L65,102 Z" fill="#f2f2ff" />
+  <path d="M230,100 L232,95 L234,100 L239,102 L234,104 L232,109 L230,104 L225,102 Z" fill="#f2f2ff" />
+  <path d="M150,150 L152,145 L154,150 L159,152 L154,154 L152,159 L150,154 L145,152 Z" fill="#f2f2ff" />
+  
+  <!-- Petites étoiles volantes -->
+  <circle cx="100" cy="40" r="2" fill="#f2f2ff" />
+  <circle cx="120" cy="30" r="1" fill="#f2f2ff" />
+  <circle cx="140" cy="45" r="1.5" fill="#f2f2ff" />
+  <circle cx="160" cy="35" r="1" fill="#f2f2ff" />
+  <circle cx="180" cy="40" r="2" fill="#f2f2ff" />
+  <circle cx="200" cy="30" r="1" fill="#f2f2ff" />
+  
+  <!-- Livre sortant de l'enveloppe -->
+  <rect x="120" y="90" width="60" height="80" fill="#f72585" rx="3" ry="3" />
+  <rect x="125" y="95" width="50" height="70" fill="#f2f2ff" rx="2" ry="2" />
+  
+  <!-- Pages du livre -->
+  <path d="M150,95 L150,165" stroke="#6a4c93" stroke-width="1" />
+  <path d="M135,105 L145,105" stroke="#6a4c93" stroke-width="1" />
+  <path d="M135,115 L145,115" stroke="#6a4c93" stroke-width="1" />
+  <path d="M135,125 L145,125" stroke="#6a4c93" stroke-width="1" />
+  <path d="M135,135 L145,135" stroke="#6a4c93" stroke-width="1" />
+  <path d="M135,145 L145,145" stroke="#6a4c93" stroke-width="1" />
+  <path d="M135,155 L145,155" stroke="#6a4c93" stroke-width="1" />
+  
+  <path d="M155,105 L165,105" stroke="#6a4c93" stroke-width="1" />
+  <path d="M155,115 L165,115" stroke="#6a4c93" stroke-width="1" />
+  <path d="M155,125 L165,125" stroke="#6a4c93" stroke-width="1" />
+  <path d="M155,135 L165,135" stroke="#6a4c93" stroke-width="1" />
+  <path d="M155,145 L165,145" stroke="#6a4c93" stroke-width="1" />
+  <path d="M155,155 L165,155" stroke="#6a4c93" stroke-width="1" />
+  
+  <!-- Personnages miniatures sortant du livre -->
+  <circle cx="100" cy="70" r="5" fill="#f72585" /> <!-- Tête -->
+  <rect x="98" y="75" width="4" height="8" fill="#f72585" /> <!-- Corps -->
+  <path d="M100,70 Q110,60 120,70" stroke="#4cc9f0" stroke-width="1" fill="none" /> <!-- Arc-en-ciel -->
+  
+  <circle cx="200" cy="70" r="5" fill="#4cc9f0" /> <!-- Tête -->
+  <rect x="198" y="75" width="4" height="8" fill="#4cc9f0" /> <!-- Corps -->
+  <path d="M200,70 Q190,60 180,70" stroke="#f72585" stroke-width="1" fill="none" /> <!-- Arc-en-ciel -->
+  
+  <!-- Traînée d'étoiles -->
+  <path d="M80,40 Q150,10 220,40" stroke="#f2f2ff" stroke-width="1" stroke-dasharray="2,2" fill="none" />
+</svg>

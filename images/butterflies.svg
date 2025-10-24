@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Papillons animés pour le mode jour -->
+  
+  <!-- Papillon 1 - Rose -->
+  <g id="butterfly1">
+    <path d="M0,0 C-20,-20 -40,-15 -30,5 C-40,25 -20,30 0,0" fill="#FF9AA2" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C-20,-20 -40,-15 -30,5 C-40,25 -20,30 0,0;M0,0 C-22,-18 -38,-13 -28,7 C-38,27 -22,28 0,0;M0,0 C-20,-20 -40,-15 -30,5 C-40,25 -20,30 0,0" dur="3s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C20,-20 40,-15 30,5 C40,25 20,30 0,0" fill="#FF9AA2" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C20,-20 40,-15 30,5 C40,25 20,30 0,0;M0,0 C22,-18 38,-13 28,7 C38,27 22,28 0,0;M0,0 C20,-20 40,-15 30,5 C40,25 20,30 0,0" dur="3s" repeatCount="indefinite" />
+    </path>
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#FF9AA2" stroke-width="2" />
+    <circle cx="-30" cy="5" r="2" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="30" cy="5" r="2" fill="#FFFFFF" opacity="0.8" />
+    
+    <animateTransform attributeName="transform" type="translate" values="100,100; 120,80; 150,120; 180,90; 150,70; 120,110; 100,100" dur="20s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" values="0; 10; -10; 5; -5; 0" additive="sum" dur="2s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Papillon 2 - Bleu -->
+  <g id="butterfly2">
+    <path d="M0,0 C-15,-15 -30,-10 -20,5 C-30,20 -15,25 0,0" fill="#C7CEEA" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C-15,-15 -30,-10 -20,5 C-30,20 -15,25 0,0;M0,0 C-17,-13 -28,-8 -18,7 C-28,22 -17,23 0,0;M0,0 C-15,-15 -30,-10 -20,5 C-30,20 -15,25 0,0" dur="2.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C15,-15 30,-10 20,5 C30,20 15,25 0,0" fill="#C7CEEA" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C15,-15 30,-10 20,5 C30,20 15,25 0,0;M0,0 C17,-13 28,-8 18,7 C28,22 17,23 0,0;M0,0 C15,-15 30,-10 20,5 C30,20 15,25 0,0" dur="2.5s" repeatCount="indefinite" />
+    </path>
+    <line x1="0" y1="0" x2="0" y2="12" stroke="#C7CEEA" stroke-width="2" />
+    <circle cx="-20" cy="5" r="1.5" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="20" cy="5" r="1.5" fill="#FFFFFF" opacity="0.8" />
+    
+    <animateTransform attributeName="transform" type="translate" values="300,150; 320,170; 350,140; 370,180; 340,200; 310,170; 300,150" dur="25s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" values="0; -10; 10; -5; 5; 0" additive="sum" dur="1.8s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Papillon 3 - Vert -->
+  <g id="butterfly3">
+    <path d="M0,0 C-12,-12 -24,-8 -16,4 C-24,16 -12,20 0,0" fill="#B5EAD7" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C-12,-12 -24,-8 -16,4 C-24,16 -12,20 0,0;M0,0 C-14,-10 -22,-6 -14,6 C-22,18 -14,18 0,0;M0,0 C-12,-12 -24,-8 -16,4 C-24,16 -12,20 0,0" dur="2.8s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C12,-12 24,-8 16,4 C24,16 12,20 0,0" fill="#B5EAD7" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C12,-12 24,-8 16,4 C24,16 12,20 0,0;M0,0 C14,-10 22,-6 14,6 C22,18 14,18 0,0;M0,0 C12,-12 24,-8 16,4 C24,16 12,20 0,0" dur="2.8s" repeatCount="indefinite" />
+    </path>
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#B5EAD7" stroke-width="1.5" />
+    <circle cx="-16" cy="4" r="1.5" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="16" cy="4" r="1.5" fill="#FFFFFF" opacity="0.8" />
+    
+    <animateTransform attributeName="transform" type="translate" values="500,200; 520,220; 540,180; 560,210; 530,240; 510,210; 500,200" dur="22s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" values="0; 15; -15; 8; -8; 0" additive="sum" dur="2.2s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Papillon 4 - Jaune -->
+  <g id="butterfly4">
+    <path d="M0,0 C-10,-10 -20,-7 -14,3 C-20,13 -10,17 0,0" fill="#FFDAC1" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C-10,-10 -20,-7 -14,3 C-20,13 -10,17 0,0;M0,0 C-12,-8 -18,-5 -12,5 C-18,15 -12,15 0,0;M0,0 C-10,-10 -20,-7 -14,3 C-20,13 -10,17 0,0" dur="3.2s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C10,-10 20,-7 14,3 C20,13 10,17 0,0" fill="#FFDAC1" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C10,-10 20,-7 14,3 C20,13 10,17 0,0;M0,0 C12,-8 18,-5 12,5 C18,15 12,15 0,0;M0,0 C10,-10 20,-7 14,3 C20,13 10,17 0,0" dur="3.2s" repeatCount="indefinite" />
+    </path>
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#FFDAC1" stroke-width="1.5" />
+    <circle cx="-14" cy="3" r="1" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="14" cy="3" r="1" fill="#FFFFFF" opacity="0.8" />
+    
+    <animateTransform attributeName="transform" type="translate" values="200,300; 220,280; 250,320; 270,290; 240,270; 210,310; 200,300" dur="18s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" values="0; -12; 12; -6; 6; 0" additive="sum" dur="2s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Papillon 5 - Violet -->
+  <g id="butterfly5">
+    <path d="M0,0 C-18,-18 -36,-12 -24,6 C-36,24 -18,30 0,0" fill="#E0BBE4" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C-18,-18 -36,-12 -24,6 C-36,24 -18,30 0,0;M0,0 C-20,-16 -34,-10 -22,8 C-34,26 -20,28 0,0;M0,0 C-18,-18 -36,-12 -24,6 C-36,24 -18,30 0,0" dur="3.5s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C18,-18 36,-12 24,6 C36,24 18,30 0,0" fill="#E0BBE4" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C18,-18 36,-12 24,6 C36,24 18,30 0,0;M0,0 C20,-16 34,-10 22,8 C34,26 20,28 0,0;M0,0 C18,-18 36,-12 24,6 C36,24 18,30 0,0" dur="3.5s" repeatCount="indefinite" />
+    </path>
+    <line x1="0" y1="0" x2="0" y2="14" stroke="#E0BBE4" stroke-width="2" />
+    <circle cx="-24" cy="6" r="2" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="24" cy="6" r="2" fill="#FFFFFF" opacity="0.8" />
+    
+    <animateTransform attributeName="transform" type="translate" values="400,350; 420,330; 450,370; 470,340; 440,320; 410,360; 400,350" dur="23s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" values="0; 8; -8; 4; -4; 0" additive="sum" dur="2.4s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Papillon 6 - Orange -->
+  <g id="butterfly6">
+    <path d="M0,0 C-14,-14 -28,-10 -20,4 C-28,18 -14,22 0,0" fill="#FFB347" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C-14,-14 -28,-10 -20,4 C-28,18 -14,22 0,0;M0,0 C-16,-12 -26,-8 -18,6 C-26,20 -16,20 0,0;M0,0 C-14,-14 -28,-10 -20,4 C-28,18 -14,22 0,0" dur="2.7s" repeatCount="indefinite" />
+    </path>
+    <path d="M0,0 C14,-14 28,-10 20,4 C28,18 14,22 0,0" fill="#FFB347" opacity="0.9">
+      <animate attributeName="d" values="M0,0 C14,-14 28,-10 20,4 C28,18 14,22 0,0;M0,0 C16,-12 26,-8 18,6 C26,20 16,20 0,0;M0,0 C14,-14 28,-10 20,4 C28,18 14,22 0,0" dur="2.7s" repeatCount="indefinite" />
+    </path>
+    <line x1="0" y1="0" x2="0" y2="11" stroke="#FFB347" stroke-width="1.8" />
+    <circle cx="-20" cy="4" r="1.8" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="20" cy="4" r="1.8" fill="#FFFFFF" opacity="0.8" />
+    
+    <animateTransform attributeName="transform" type="translate" values="600,250; 620,270; 650,230; 670,260; 640,280; 610,250; 600,250" dur="21s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" values="0; -14; 14; -7; 7; 0" additive="sum" dur="2.1s" repeatCount="indefinite" />
+  </g>
+</svg>

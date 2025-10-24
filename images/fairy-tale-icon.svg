@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Château de conte de fées -->
+  <rect x="30" y="50" width="40" height="40" fill="#6a4c93" rx="2" ry="2" />
+  <rect x="25" y="40" width="50" height="10" fill="#6a4c93" rx="2" ry="2" />
+  
+  <!-- Tours -->
+  <rect x="20" y="30" width="10" height="20" fill="#6a4c93" rx="2" ry="2" />
+  <rect x="70" y="30" width="10" height="20" fill="#6a4c93" rx="2" ry="2" />
+  <rect x="40" y="20" width="20" height="30" fill="#6a4c93" rx="2" ry="2" />
+  
+  <!-- Toits pointus -->
+  <polygon points="20,30 25,15 30,30" fill="#f72585" />
+  <polygon points="70,30 75,15 80,30" fill="#f72585" />
+  <polygon points="40,20 50,5 60,20" fill="#f72585" />
+  
+  <!-- Fenêtres -->
+  <rect x="45" y="30" width="10" height="15" fill="#4cc9f0" rx="5" ry="5" />
+  <rect x="40" y="60" width="8" height="10" fill="#4cc9f0" rx="2" ry="2" />
+  <rect x="52" y="60" width="8" height="10" fill="#4cc9f0" rx="2" ry="2" />
+  <rect x="22" y="35" width="6" height="8" fill="#4cc9f0" rx="1" ry="1" />
+  <rect x="72" y="35" width="6" height="8" fill="#4cc9f0" rx="1" ry="1" />
+  
+  <!-- Porte -->
+  <rect x="45" y="70" width="10" height="20" fill="#f72585" rx="2" ry="2" />
+  
+  <!-- Étoiles magiques -->
+  <path d="M15,15 L17,10 L19,15 L24,17 L19,19 L17,24 L15,19 L10,17 Z" fill="#4cc9f0" />
+  <path d="M85,25 L87,20 L89,25 L94,27 L89,29 L87,34 L85,29 L80,27 Z" fill="#4cc9f0" />
+  <path d="M50,50 L51,47 L52,50 L55,51 L52,52 L51,55 L50,52 L47,51 Z" fill="#f72585" />
+</svg>

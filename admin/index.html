@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tableau de bord — Histoires de Jour</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #f7f7fb; color: #333; }
+    .notice { max-width: 720px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.06); padding: 24px; }
+    .notice h1 { margin: 0 0 12px; font-size: 22px; }
+    .notice p { margin: 6px 0; line-height: 1.5; }
+    .actions { margin-top: 12px; }
+    .btn { display: inline-block; padding: 8px 14px; border-radius: 999px; background: #4f46e5; color: #fff; text-decoration: none; box-shadow: 0 8px 20px rgba(79,70,229,0.25); }
+    .btn:hover { background: #4338ca; }
+  </style>
+  <!-- Netlify Identity (auth) -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- Decap CMS (ex Netlify CMS) -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</head>
+<body>
+  <div class="notice">
+    <h1>Tableau de bord d’édition</h1>
+    <p>Utilisez ce tableau de bord pour ajouter et modifier des histoires. Pour que cela fonctionne en production, vous devez:
+    </p>
+    <ul>
+      <li>Lier le site Netlify à un dépôt GitHub.</li>
+      <li>Activer Netlify Identity et Git Gateway.</li>
+    </ul>
+    <div class="actions">
+      <a class="btn" href="#" id="loginBtn">Se connecter</a>
+    </div>
+  </div>
+
+  <script>
+    // Initialiser Netlify Identity et redirections utiles
+    if (window.netlifyIdentity) {
+      netlifyIdentity.on('init', user => {
+        if (!user) {
+          document.getElementById('loginBtn').addEventListener('click', () => netlifyIdentity.open());
+        } else {
+          // utilisateur connecté, ouvrir CMS
+          if (window.CMS && CMS.init) CMS.init();
+        }
+      });
+      netlifyIdentity.on('login', () => {
+        window.location.reload();
+      });
+    }
+    // Si pas d’Identity, démarrer tout de même le CMS pour l’aperçu local
+    if (window.CMS && CMS.init) {
+      CMS.init();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Fond océan -->
+  <rect width="300" height="200" fill="#1a1a2e" />
+  
+  <!-- Dégradé d'eau -->
+  <rect width="300" height="180" y="20" fill="#4cc9f0" opacity="0.3" />
+  <rect width="300" height="150" y="50" fill="#4cc9f0" opacity="0.4" />
+  <rect width="300" height="100" y="100" fill="#4cc9f0" opacity="0.5" />
+  
+  <!-- Bulles -->
+  <circle cx="50" cy="50" r="3" fill="white" opacity="0.5" />
+  <circle cx="70" cy="80" r="2" fill="white" opacity="0.5" />
+  <circle cx="90" cy="40" r="4" fill="white" opacity="0.5" />
+  <circle cx="200" cy="60" r="3" fill="white" opacity="0.5" />
+  <circle cx="220" cy="90" r="2" fill="white" opacity="0.5" />
+  <circle cx="240" cy="50" r="4" fill="white" opacity="0.5" />
+  
+  <!-- Algues -->
+  <path d="M30,200 C40,180 20,170 30,150 C40,130 20,120 30,100" stroke="#6a4c93" stroke-width="2" fill="none" />
+  <path d="M50,200 C60,180 40,170 50,150 C60,130 40,120 50,100" stroke="#6a4c93" stroke-width="2" fill="none" />
+  <path d="M250,200 C260,180 240,170 250,150 C260,130 240,120 250,100" stroke="#6a4c93" stroke-width="2" fill="none" />
+  <path d="M270,200 C280,180 260,170 270,150 C280,130 260,120 270,100" stroke="#6a4c93" stroke-width="2" fill="none" />
+  
+  <!-- Poissons -->
+  <path d="M100,120 L110,115 L110,125 Z" fill="#f72585" opacity="0.7" />
+  <path d="M120,140 L130,135 L130,145 Z" fill="#f72585" opacity="0.7" />
+  <path d="M200,130 L190,125 L190,135 Z" fill="#f72585" opacity="0.7" />
+  <path d="M180,110 L170,105 L170,115 Z" fill="#f72585" opacity="0.7" />
+  
+  <!-- Petite Sirène -->
+  <circle cx="150" cy="100" r="10" fill="#f2f2ff" /> <!-- Tête -->
+  <path d="M150,110 L150,130" stroke="#f2f2ff" stroke-width="5" /> <!-- Haut du corps -->
+  <path d="M150,130 C140,150 160,150 150,170" stroke="#f72585" stroke-width="10" fill="none" /> <!-- Queue de sirène -->
+  <path d="M150,170 L140,180 L160,180 Z" fill="#f72585" /> <!-- Nageoire -->
+  
+  <!-- Cheveux -->
+  <path d="M150,100 C170,90 180,110 170,120" stroke="#f72585" stroke-width="3" fill="none" />
+  <path d="M150,100 C160,85 175,95 170,110" stroke="#f72585" stroke-width="3" fill="none" />
+  <path d="M150,100 C165,80 185,90 175,115" stroke="#f72585" stroke-width="3" fill="none" />
+  
+  <!-- Bras -->
+  <path d="M150,115 L140,125" stroke="#f2f2ff" stroke-width="3" />
+  <path d="M150,115 L160,125" stroke="#f2f2ff" stroke-width="3" />
+  
+  <!-- Coquillages -->
+  <circle cx="80" cy="180" r="5" fill="#f72585" opacity="0.8" />
+  <circle cx="100" cy="185" r="4" fill="#6a4c93" opacity="0.8" />
+  <circle cx="120" cy="180" r="6" fill="#4cc9f0" opacity="0.8" />
+  <circle cx="200" cy="185" r="5" fill="#f72585" opacity="0.8" />
+  <circle cx="220" cy="180" r="4" fill="#6a4c93" opacity="0.8" />
+  <circle cx="240" cy="185" r="6" fill="#4cc9f0" opacity="0.8" />
+  
+  <!-- Étoile de mer -->
+  <path d="M180,160 L190,150 L180,140 L170,150 L180,160 Z" fill="#f72585" opacity="0.8" />
+</svg>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoires de Nuit - Contes pour Enfants</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="floral-motifs"></div>
+    <div class="day-motifs"></div>
+    <div class="butterflies"></div>
+    
+    <button class="theme-toggle" id="theme-toggle" aria-label="Basculer entre le mode jour et nuit">
+        <img src="images/sun-icon.svg" alt="Icône soleil" class="icon sun-icon">
+        <img src="images/moon-icon.svg" alt="Icône lune" class="icon moon-icon">
+    </button>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Histoires de Nuit Logo">
+                <h1>Histoires de Nuit</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Accueil</a></li>
+                    <li><a href="#histoires">Histoires</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#favoris">Favoris</a></li>
+                    <li><a href="admin/">Admin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Des histoires magiques pour des rêves colorés</h2>
+                    <p>Découvrez notre collection d'histoires merveilleuses pour accompagner vos enfants au pays des rêves.</p>
+                    <a href="#histoires" class="btn-primary">Découvrir les histoires</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-illustration.svg" alt="Enfants lisant des histoires">
+                    <img src="images/hero-illustration-day.svg" alt="Enfants lisant des histoires en journée" class="day-illustration">
+                    <div class="character-decorations"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="histoires" class="featured-stories">
+            <div class="container">
+                <h2 class="section-title">Histoires populaires</h2>
+                <div class="stories-grid">
+                    <div class="story-card">
+                        <div class="story-image">
+                            <img src="images/story1.svg" alt="Le Petit Prince">
+                        </div>
+                        <div class="story-content">
+                            <h3>Le Petit Prince</h3>
+                            <p class="story-category">Aventure • 5-8 ans</p>
+                            <p class="story-excerpt">L'histoire d'un petit prince venu d'une autre planète...</p>
+                            <a href="stories/le-petit-prince.html" class="btn-secondary">Lire l'histoire</a>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-image">
+                            <img src="images/story2.svg" alt="La Petite Sirène">
+                        </div>
+                        <div class="story-content">
+                            <h3>La Petite Sirène</h3>
+                            <p class="story-category">Conte de fées • 4-7 ans</p>
+                            <p class="story-excerpt">Au fond de l'océan vivait une petite sirène...</p>
+                            <a href="stories/la-petite-sirene.html" class="btn-secondary">Lire l'histoire</a>
+                        </div>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-image">
+                            <img src="images/story3.svg" alt="Le Vilain Petit Canard">
+                        </div>
+                        <div class="story-content">
+                            <h3>Le Vilain Petit Canard</h3>
+                            <p class="story-category">Conte classique • 3-6 ans</p>
+                            <p class="story-excerpt">L'histoire d'un caneton différent des autres...</p>
+                            <a href="stories/le-vilain-petit-canard.html" class="btn-secondary">Lire l'histoire</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <a href="toutes-les-histoires.html" class="btn-outline">Voir toutes les histoires</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2 class="section-title">Catégories</h2>
+                <div class="categories-grid">
+                    <a href="categories/contes-de-fees.html" class="category-card">
+                        <div class="category-icon">
+                            <img src="images/fairy-tale-icon.svg" alt="Contes de fées">
+                        </div>
+                        <h3>Contes de fées</h3>
+                    </a>
+                    <a href="categories/aventures.html" class="category-card">
+                        <div class="category-icon">
+                            <img src="images/adventure-icon.svg" alt="Aventures">
+                        </div>
+                        <h3>Aventures</h3>
+                    </a>
+                    <a href="categories/animaux.html" class="category-card">
+                        <div class="category-icon">
+                            <img src="images/animal-icon.svg" alt="Animaux">
+                        </div>
+                        <h3>Animaux</h3>
+                    </a>
+                    <a href="categories/legendes.html" class="category-card">
+                        <div class="category-icon">
+                            <img src="images/legend-icon.svg" alt="Légendes">
+                        </div>
+                        <h3>Légendes</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="age-groups">
+            <div class="container">
+                <h2 class="section-title">Par âge</h2>
+                <div class="age-groups-tabs">
+                    <button class="age-tab active" data-age="3-5">3-5 ans</button>
+                    <button class="age-tab" data-age="6-8">6-8 ans</button>
+                    <button class="age-tab" data-age="9-12">9-12 ans</button>
+                </div>
+                <div class="age-content active" id="age-3-5">
+                    <div class="stories-grid">
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="images/story4.svg" alt="Les Trois Petits Cochons">
+                            </div>
+                            <div class="story-content">
+                                <h3>Les Trois Petits Cochons</h3>
+                                <p class="story-category">Conte classique • 3-5 ans</p>
+                                <a href="stories/les-trois-petits-cochons.html" class="btn-secondary">Lire l'histoire</a>
+                            </div>
+                        </div>
+                        <div class="story-card">
+                            <div class="story-image">
+                                <img src="images/story5.svg" alt="Boucle d'Or">
+                            </div>
+                            <div class="story-content">
+                                <h3>Boucle d'Or et les Trois Ours</h3>
+                                <p class="story-category">Conte classique • 3-5 ans</p>
+                                <a href="stories/boucle-d-or.html" class="btn-secondary">Lire l'histoire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Les autres tranches d'âge seront affichées via JavaScript -->
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Recevez de nouvelles histoires</h2>
+                    <p>Inscrivez-vous pour recevoir de nouvelles histoires chaque semaine !</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn-primary">S'inscrire</button>
+                    </form>
+                </div>
+                <div class="newsletter-image">
+                    <img src="images/newsletter-illustration.svg" alt="Illustration newsletter">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="Histoires de Nuit Logo">
+                    <h2>Histoires de Nuit</h2>
+                    <p>Des histoires magiques pour des rêves colorés</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#histoires">Histoires</a></li>
+                            <li><a href="#categories">Catégories</a></li>
+                            <li><a href="#favoris">Favoris</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Catégories</h3>
+                        <ul>
+                            <li><a href="categories/contes-de-fees.html">Contes de fées</a></li>
+                            <li><a href="categories/aventures.html">Aventures</a></li>
+                            <li><a href="categories/animaux.html">Animaux</a></li>
+                            <li><a href="categories/legendes.html">Légendes</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>À propos</h3>
+                        <ul>
+                            <li><a href="a-propos.html">Qui sommes-nous</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="mentions-legales.html">Mentions légales</a></li>
+                            <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Histoires de Nuit. Tous droits réservés.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Montagne d'aventure -->
+  <polygon points="10,80 40,30 70,80" fill="#6a4c93" />
+  <polygon points="30,80 60,40 90,80" fill="#4cc9f0" />
+  
+  <!-- Soleil -->
+  <circle cx="20" cy="20" r="12" fill="#f72585" />
+  <path d="M20,5 L20,10" stroke="#f72585" stroke-width="2" />
+  <path d="M20,30 L20,35" stroke="#f72585" stroke-width="2" />
+  <path d="M5,20 L10,20" stroke="#f72585" stroke-width="2" />
+  <path d="M30,20 L35,20" stroke="#f72585" stroke-width="2" />
+  <path d="M10,10 L13,13" stroke="#f72585" stroke-width="2" />
+  <path d="M27,27 L30,30" stroke="#f72585" stroke-width="2" />
+  <path d="M10,30 L13,27" stroke="#f72585" stroke-width="2" />
+  <path d="M27,13 L30,10" stroke="#f72585" stroke-width="2" />
+  
+  <!-- Petit explorateur -->
+  <circle cx="50" cy="70" r="5" fill="#f2f2ff" /> <!-- Tête -->
+  <rect x="48" y="75" width="4" height="10" fill="#f2f2ff" /> <!-- Corps -->
+  <rect x="45" y="78" width="3" height="2" fill="#f2f2ff" /> <!-- Bras gauche -->
+  <rect x="52" y="78" width="3" height="2" fill="#f2f2ff" /> <!-- Bras droit -->
+  <rect x="48" y="85" width="2" height="5" fill="#f2f2ff" /> <!-- Jambe gauche -->
+  <rect x="50" y="85" width="2" height="5" fill="#f2f2ff" /> <!-- Jambe droite -->
+  
+  <!-- Sac à dos -->
+  <rect x="47" y="75" width="6" height="8" rx="1" ry="1" fill="#f72585" />
+  
+  <!-- Drapeau de conquête -->
+  <path d="M60,50 L60,70" stroke="#f2f2ff" stroke-width="2" />
+  <polygon points="60,50 70,55 60,60" fill="#f72585" />
+  
+  <!-- Étoiles -->
+  <path d="M80,15 L82,10 L84,15 L89,17 L84,19 L82,24 L80,19 L75,17 Z" fill="#f72585" />
+  <path d="M90,30 L91,27 L92,30 L95,31 L92,32 L91,35 L90,32 L87,31 Z" fill="#4cc9f0" />
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Décorations florales autour des personnages -->
+  
+  <!-- Cercles lumineux autour des personnages -->
+  <circle cx="400" cy="400" r="80" fill="url(#glow1)" opacity="0.6"/>
+  <circle cx="250" cy="450" r="60" fill="url(#glow2)" opacity="0.5"/>
+  <circle cx="550" cy="450" r="60" fill="url(#glow3)" opacity="0.5"/>
+  
+  <!-- Définition des dégradés -->
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ff7eb9" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff7eb9" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#6edbff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6edbff" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="glow3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#b5a9ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#b5a9ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Petites fleurs autour des personnages -->
+  <g class="character-flowers">
+    <!-- Autour du personnage central -->
+    <circle cx="380" cy="350" r="8" fill="#ff7eb9" opacity="0.7"/>
+    <circle cx="420" cy="360" r="6" fill="#b5a9ff" opacity="0.7"/>
+    <circle cx="390" cy="380" r="7" fill="#6edbff" opacity="0.7"/>
+    <circle cx="410" cy="340" r="5" fill="#ff7eb9" opacity="0.7"/>
+    
+    <!-- Autour du personnage de gauche -->
+    <circle cx="230" cy="420" r="7" fill="#ff7eb9" opacity="0.7"/>
+    <circle cx="260" cy="430" r="5" fill="#b5a9ff" opacity="0.7"/>
+    <circle cx="240" cy="450" r="6" fill="#6edbff" opacity="0.7"/>
+    
+    <!-- Autour du personnage de droite -->
+    <circle cx="530" cy="420" r="7" fill="#ff7eb9" opacity="0.7"/>
+    <circle cx="560" cy="430" r="5" fill="#b5a9ff" opacity="0.7"/>
+    <circle cx="540" cy="450" r="6" fill="#6edbff" opacity="0.7"/>
+  </g>
+  
+  <!-- Étoiles brillantes autour des personnages -->
+  <g class="character-stars">
+    <path d="M380,320 L383,327 L390,328 L385,333 L386,340 L380,337 L374,340 L375,333 L370,328 L377,327 Z" fill="#ffffff" opacity="0.9"/>
+    <path d="M430,370 L432,375 L438,376 L434,380 L435,385 L430,383 L425,385 L426,380 L422,376 L428,375 Z" fill="#ffffff" opacity="0.9"/>
+    <path d="M220,400 L222,405 L228,406 L224,410 L225,415 L220,413 L215,415 L216,410 L212,406 L218,405 Z" fill="#ffffff" opacity="0.9"/>
+    <path d="M570,400 L572,405 L578,406 L574,410 L575,415 L570,413 L565,415 L566,410 L562,406 L568,405 Z" fill="#ffffff" opacity="0.9"/>
+  </g>
+  
+  <!-- Lignes décoratives connectant les personnages -->
+  <path d="M250,450 C300,420 350,430 400,400 C450,430 500,420 550,450" stroke="#ff7eb9" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="5,5"/>
+  <path d="M250,460 C300,440 350,450 400,420 C450,450 500,440 550,460" stroke="#6edbff" stroke-width="2" fill="none" opacity="0.4" stroke-dasharray="5,5"/>
+</svg>

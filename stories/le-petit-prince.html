@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Petit Prince - Histoires de Nuit</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        /* Styles spécifiques pour les pages d'histoires */
+        .story-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: var(--border-radius);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .story-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .story-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #fff, var(--accent-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .story-meta {
+            color: var(--accent-color);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .story-image {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .story-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        .story-content {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .story-content p {
+            margin-bottom: 20px;
+        }
+
+        .story-navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .story-navigation a {
+            display: flex;
+            align-items: center;
+            color: var(--text-color);
+            transition: var(--transition);
+        }
+
+        .story-navigation a:hover {
+            color: var(--accent-color);
+        }
+
+        .story-navigation .prev i {
+            margin-right: 10px;
+        }
+
+        .story-navigation .next i {
+            margin-left: 10px;
+        }
+
+        .story-actions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .story-actions button {
+            background-color: var(--card-bg-color);
+            border: none;
+            color: var(--text-color);
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: var(--transition);
+        }
+
+        .story-actions button:hover {
+            background-color: var(--card-hover-bg-color);
+            transform: translateY(-3px);
+        }
+
+        /* Animation de lecture progressive */
+        .story-content p {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .story-content p:nth-child(1) { animation-delay: 0.1s; }
+        .story-content p:nth-child(2) { animation-delay: 0.2s; }
+        .story-content p:nth-child(3) { animation-delay: 0.3s; }
+        .story-content p:nth-child(4) { animation-delay: 0.4s; }
+        .story-content p:nth-child(5) { animation-delay: 0.5s; }
+        .story-content p:nth-child(6) { animation-delay: 0.6s; }
+        .story-content p:nth-child(7) { animation-delay: 0.7s; }
+        .story-content p:nth-child(8) { animation-delay: 0.8s; }
+        .story-content p:nth-child(9) { animation-delay: 0.9s; }
+        .story-content p:nth-child(10) { animation-delay: 1s; }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../images/logo.svg" alt="Histoires de Nuit Logo">
+                <h1>Histoires de Nuit</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="../index.html#histoires" class="active">Histoires</a></li>
+                    <li><a href="../index.html#categories">Catégories</a></li>
+                    <li><a href="../index.html#favoris">Favoris</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="story-container">
+                <div class="story-header">
+                    <h1>Le Petit Prince</h1>
+                    <div class="story-meta">Aventure • 5-8 ans • Par Antoine de Saint-Exupéry</div>
+                </div>
+                
+                <div class="story-image">
+                    <img src="../images/story1.svg" alt="Le Petit Prince" width="500">
+                </div>
+                
+                <div class="story-actions">
+                    <button id="btn-favorite"><i class="far fa-heart"></i> Ajouter aux favoris</button>
+                    <button id="btn-share"><i class="fas fa-share-alt"></i> Partager</button>
+                </div>
+                
+                <div class="story-content">
+                    <p>Il était une fois un petit prince qui vivait sur une planète à peine plus grande qu'une maison. Cette planète s'appelait l'astéroïde B 612. Le Petit Prince aimait prendre soin de sa planète. Chaque jour, il arrachait les mauvaises herbes et veillait sur sa rose.</p>
+                    
+                    <p>Sa rose était très spéciale pour lui. Elle était belle mais aussi un peu vaniteuse. Elle se vantait d'avoir quatre épines pour se protéger des animaux. Le Petit Prince l'aimait malgré ses défauts et prenait soin d'elle tous les jours.</p>
+                    
+                    <p>Un jour, le Petit Prince décida de quitter sa planète pour explorer l'univers. Il voulait découvrir d'autres mondes et rencontrer de nouvelles personnes. Il dit au revoir à sa rose et s'envola vers les étoiles.</p>
+                    
+                    <p>Durant son voyage, le Petit Prince visita plusieurs planètes. Sur la première vivait un roi qui prétendait régner sur tout l'univers, mais qui était seul sur sa planète. Sur la deuxième habitait un vaniteux qui voulait être admiré par tout le monde. Sur la troisième se trouvait un homme d'affaires qui passait son temps à compter les étoiles, prétendant qu'elles lui appartenaient.</p>
+                    
+                    <p>Le Petit Prince trouvait les grandes personnes bien étranges. Elles semblaient toujours occupées à des choses qui n'avaient pas vraiment d'importance.</p>
+                    
+                    <p>Finalement, le Petit Prince arriva sur la Terre. C'était une planète immense comparée à la sienne. Il atterrit dans un désert où il rencontra un serpent, puis une fleur, et enfin un renard.</p>
+                    
+                    <p>Le renard lui apprit une leçon très importante : « On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux. » Le Petit Prince comprit alors que ce qui rendait sa rose si spéciale, c'était le temps qu'il avait passé à en prendre soin. C'était le lien qu'il avait créé avec elle qui la rendait unique dans tout l'univers.</p>
+                    
+                    <p>Plus tard, le Petit Prince rencontra un aviateur dont l'avion s'était écrasé dans le désert. Ils devinrent amis, et le Petit Prince raconta à l'aviateur ses aventures et tout ce qu'il avait appris.</p>
+                    
+                    <p>Après avoir passé du temps sur Terre, le Petit Prince commença à ressentir le mal du pays. Sa rose lui manquait. Il décida qu'il était temps de rentrer chez lui. Il dit au revoir à l'aviateur et retourna sur sa petite planète, emportant avec lui toutes les leçons qu'il avait apprises.</p>
+                    
+                    <p>Et c'est ainsi que le Petit Prince nous enseigne que les liens que nous créons avec les autres sont ce qui donne un sens à notre vie. Comme il l'a appris du renard : « Tu deviens responsable pour toujours de ce que tu as apprivoisé. »</p>
+                </div>
+                
+                <div class="story-navigation">
+                    <a href="../index.html#histoires" class="prev"><i class="fas fa-arrow-left"></i> Retour aux histoires</a>
+                    <a href="la-petite-sirene.html" class="next">Histoire suivante <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../images/logo.svg" alt="Histoires de Nuit Logo">
+                    <h2>Histoires de Nuit</h2>
+                    <p>Des histoires magiques pour des rêves colorés</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="../index.html">Accueil</a></li>
+                            <li><a href="../index.html#histoires">Histoires</a></li>
+                            <li><a href="../index.html#categories">Catégories</a></li>
+                            <li><a href="../index.html#favoris">Favoris</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Catégories</h3>
+                        <ul>
+                            <li><a href="../categories/contes-de-fees.html">Contes de fées</a></li>
+                            <li><a href="../categories/aventures.html">Aventures</a></li>
+                            <li><a href="../categories/animaux.html">Animaux</a></li>
+                            <li><a href="../categories/legendes.html">Légendes</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>À propos</h3>
+                        <ul>
+                            <li><a href="../a-propos.html">Qui sommes-nous</a></li>
+                            <li><a href="../contact.html">Contact</a></li>
+                            <li><a href="../mentions-legales.html">Mentions légales</a></li>
+                            <li><a href="../politique-confidentialite.html">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Histoires de Nuit. Tous droits réservés.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script pour les boutons d'action
+        document.getElementById('btn-favorite').addEventListener('click', function() {
+            const icon = this.querySelector('i');
+            if (icon.classList.contains('far')) {
+                icon.classList.remove('far');
+                icon.classList.add('fas');
+                this.innerHTML = '<i class="fas fa-heart"></i> Ajouté aux favoris';
+            } else {
+                icon.classList.remove('fas');
+                icon.classList.add('far');
+                this.innerHTML = '<i class="far fa-heart"></i> Ajouter aux favoris';
+            }
+        });
+
+        document.getElementById('btn-share').addEventListener('click', function() {
+            alert('Lien de partage copié ! Vous pouvez maintenant le partager avec vos amis.');
+        });
+
+        // Animation de lecture progressive
+        const paragraphs = document.querySelectorAll('.story-content p');
+        let delay = 0.1;
+        
+        paragraphs.forEach((paragraph, index) => {
+            paragraph.style.animationDelay = `${delay * index}s`;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Fond de ciel nocturne -->
+  <rect width="500" height="400" fill="#1a1a2e" opacity="0.3" rx="20" ry="20" />
+  
+  <!-- Lune -->
+  <circle cx="400" cy="80" r="50" fill="#f2f2ff" />
+  <circle cx="380" cy="70" r="10" fill="#e6e6ff" />
+  <circle cx="420" cy="90" r="15" fill="#e6e6ff" />
+  
+  <!-- Étoiles -->
+  <path d="M50,50 L53,40 L56,50 L66,53 L56,56 L53,66 L50,56 L40,53 Z" fill="#f72585" />
+  <path d="M450,150 L453,140 L456,150 L466,153 L456,156 L453,166 L450,156 L440,153 Z" fill="#4cc9f0" />
+  <path d="M100,200 L103,190 L106,200 L116,203 L106,206 L103,216 L100,206 L90,203 Z" fill="#6a4c93" />
+  <path d="M350,250 L353,240 L356,250 L366,253 L356,256 L353,266 L350,256 L340,253 Z" fill="#f72585" />
+  
+  <!-- Arbre magique -->
+  <rect x="100" y="250" width="20" height="100" fill="#6a4c93" rx="5" ry="5" />
+  <circle cx="110" cy="200" r="50" fill="#4cc9f0" opacity="0.7" />
+  <circle cx="110" cy="200" r="40" fill="#6a4c93" opacity="0.5" />
+  <circle cx="110" cy="200" r="30" fill="#f72585" opacity="0.3" />
+  
+  <!-- Petites étoiles dans l'arbre -->
+  <circle cx="100" cy="180" r="2" fill="white" />
+  <circle cx="120" cy="190" r="2" fill="white" />
+  <circle cx="110" cy="210" r="2" fill="white" />
+  <circle cx="90" cy="200" r="2" fill="white" />
+  <circle cx="130" cy="200" r="2" fill="white" />
+  
+  <!-- Enfants lisant -->
+  <!-- Enfant 1 -->
+  <circle cx="200" cy="300" r="20" fill="#f72585" /> <!-- Tête -->
+  <rect x="190" y="320" width="20" height="30" rx="5" ry="5" fill="#f72585" /> <!-- Corps -->
+  <rect x="180" y="350" width="40" height="10" fill="#6a4c93" /> <!-- Jambes -->
+  <rect x="170" y="330" width="10" height="20" fill="#f72585" /> <!-- Bras gauche -->
+  <rect x="230" y="330" width="10" height="20" fill="#f72585" /> <!-- Bras droit -->
+  <rect x="170" y="330" width="30" height="20" fill="#4cc9f0" /> <!-- Livre -->
+  
+  <!-- Enfant 2 -->
+  <circle cx="300" cy="320" r="20" fill="#4cc9f0" /> <!-- Tête -->
+  <rect x="290" y="340" width="20" height="30" rx="5" ry="5" fill="#4cc9f0" /> <!-- Corps -->
+  <rect x="280" y="370" width="40" height="10" fill="#6a4c93" /> <!-- Jambes -->
+  <rect x="270" y="350" width="10" height="20" fill="#4cc9f0" /> <!-- Bras gauche -->
+  <rect x="320" y="350" width="10" height="20" fill="#4cc9f0" /> <!-- Bras droit -->
+  <rect x="270" y="350" width="30" height="20" fill="#f72585" /> <!-- Livre -->
+  
+  <!-- Nuages de rêve -->
+  <ellipse cx="230" cy="250" rx="30" ry="20" fill="#f72585" opacity="0.3" />
+  <ellipse cx="270" cy="230" rx="40" ry="25" fill="#4cc9f0" opacity="0.3" />
+  
+  <!-- Petites étoiles volantes -->
+  <path d="M350,150 L352,145 L354,150 L359,152 L354,154 L352,159 L350,154 L345,152 Z" fill="#f72585" />
+  <path d="M250,100 L252,95 L254,100 L259,102 L254,104 L252,109 L250,104 L245,102 Z" fill="#4cc9f0" />
+  <path d="M150,150 L152,145 L154,150 L159,152 L154,154 L152,159 L150,154 L145,152 Z" fill="#6a4c93" />
+</svg>

@@ -1,0 +1,11 @@
+[build]
+# Publier directement depuis la racine du projet
+publish = "."
+# Aucun build nécessaire pour un site statique
+command = ""
+
+# Optionnel: en-têtes de base pour sécurité/caching léger (peut être ajusté)
+# [[headers]]
+#   for = "/images/*"
+#   [headers.values]
+#   Cache-Control = "public, max-age=31536000, immutable"
